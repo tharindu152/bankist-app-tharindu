@@ -1,0 +1,17 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "default": "script.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Tharindu Thennakoon",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.26.1",
+    "parcel": "^2.8.0",
+    "regenerator-runtime": "^0.13.11"
+  }
+}
